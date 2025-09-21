@@ -8,7 +8,7 @@ from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 import retrieve, search_tool, weather_tool
 
 
-HUGGINGFACEHUB_API_TOKEN = "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"
+HUGGINGFACEHUB_API_TOKEN = ""
 
 # Generate the chat interface, including the tools
 llm = HuggingFaceEndpoint(
